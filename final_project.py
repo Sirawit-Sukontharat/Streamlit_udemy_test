@@ -5,6 +5,7 @@ import plotly.express as px
 import yfinance as yf
 from PIL import Image
 import numpy as np
+np.bool = np.bool_
 
 
 def parameter(df_sp, sector_default_value, cap_default_value):
